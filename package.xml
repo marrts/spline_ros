@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>spline</name>
+  <version>0.1.0</version>
+  <description>A ROS2 package for the spline header-only library adpated from https://github.com/ttk592/spline</description>
+
+  <maintainer email="tyler.marr@swri.org">Tyler Marr</maintainer>
+  <license>License of spline library</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>ros_industrial_cmake_boilerplate</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
